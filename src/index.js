@@ -13,7 +13,7 @@ const insertMovieToTheDom = (title, poster) => {
 
 // STEP2
 const fetchAPI = (movie) => {
-  const key = "48727053";
+  const key = config.MY_API_TOKEN;
   const url = `https://www.omdbapi.com/?s=${movie}&apikey=${key}`;
 
   // JavaScript gets the URL
