@@ -53,7 +53,7 @@ Query String:	`q=wagon&hl=en`
 
 ## AJAX - Asynchronous Javascript And XML
 * It is usually used to call an API.
-* Ajax requests are asynchronous HTTP requests which happen after page load.
+* Ajax requests are asynchronous HTTP requests which happen after page load to dynamically refresh the page.
 * Uses JavaScript to make a request to another server on another endpoint and then this JS will manipulate things for me after the page load.
 * Example: autocomplete in google search
 
